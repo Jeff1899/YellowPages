@@ -1,0 +1,8 @@
+applications:
+- path: target/yp-svc-0.0.1-SNAPSHOT.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: yellowpages
+  host: yellowpages
+  disk_quota: 1024M
